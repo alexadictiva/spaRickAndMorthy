@@ -1,6 +1,6 @@
-//import router from "../routes"
+//import route from "../routes";
 
-const resolveRoutes = () => {
+const resolveRoutes = (route) => {
   if (route.length <= 3) {
     let validRoute = route === "/" ? route : "/:id";
     return validRoute;
